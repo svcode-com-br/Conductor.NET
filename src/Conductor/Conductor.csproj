@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>Conductor</PackageId>
-    <Title>Conductor .NET</Title>
+    <PackageId>ConductorNET</PackageId>
+    <Title>Conductor.NET</Title>
     <Description>Lightweight CQRS and mediator runtime for .NET: dispatchers, pipeline execution, validation behavior, and diagnostics.</Description>
     <RootNamespace>Conductor</RootNamespace>
     <AssemblyName>Conductor</AssemblyName>

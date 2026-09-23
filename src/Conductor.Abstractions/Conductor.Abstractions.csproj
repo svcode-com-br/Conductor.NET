@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>Conductor.Abstractions</PackageId>
+    <PackageId>ConductorNET.Abstractions</PackageId>
     <Title>Conductor .NET Abstractions</Title>
     <Description>Stable CQRS and mediator contracts for Conductor.NET: commands, queries, handlers, dispatchers, pipelines, and validation.</Description>
     <RootNamespace>Conductor</RootNamespace>

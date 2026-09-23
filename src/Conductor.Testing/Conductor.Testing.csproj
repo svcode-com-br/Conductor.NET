@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>Conductor.Testing</PackageId>
+    <PackageId>ConductorNET.Testing</PackageId>
     <Title>Conductor .NET Testing</Title>
     <Description>Test helpers for Conductor.NET: fake dispatchers, a fake notification publisher, recording pipeline behaviors, and scoped test hosts.</Description>
     <RootNamespace>Conductor.Testing</RootNamespace>

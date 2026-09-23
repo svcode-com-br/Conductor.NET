@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>Conductor.AspNetCore</PackageId>
+    <PackageId>ConductorNET.AspNetCore</PackageId>
     <Title>Conductor .NET ASP.NET Core Integration</Title>
     <Description>ASP.NET Core integration for Conductor.NET that maps request validation failures to ProblemDetails.</Description>
     <RootNamespace>Conductor.AspNetCore</RootNamespace>

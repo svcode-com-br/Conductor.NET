@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>Conductor.DependencyInjection</PackageId>
+    <PackageId>ConductorNET.DependencyInjection</PackageId>
     <Title>Conductor .NET DependencyInjection</Title>
     <Description>Microsoft.Extensions.DependencyInjection integration for Conductor.NET, including AddConductor, assembly scanning, and duplicate-handler detection.</Description>
     <RootNamespace>Conductor.DependencyInjection</RootNamespace>
