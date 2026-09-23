@@ -9,6 +9,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Sergio Valadão Junior</Authors>
     <Company>SVCODE</Company>
+    <RepositoryUrl>https://github.com/svcode-com-br/Conductor.NET</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
