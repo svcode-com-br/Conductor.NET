@@ -1,0 +1,14 @@
+#nullable enable
+Conductor.ConductorTelemetry
+Conductor.ConductorTelemetry.ActivitySourceName -> string
+Conductor.ConductorTelemetry.CommandActivityName -> string
+Conductor.ConductorTelemetry.HandlerTypeTag -> string
+Conductor.ConductorTelemetry.OutcomeCanceled -> string
+Conductor.ConductorTelemetry.OutcomeError -> string
+Conductor.ConductorTelemetry.OutcomeSuccess -> string
+Conductor.ConductorTelemetry.OutcomeTag -> string
+Conductor.ConductorTelemetry.OutcomeValidationFailed -> string
+Conductor.ConductorTelemetry.QueryActivityName -> string
+Conductor.ConductorTelemetry.RequestKindTag -> string
+Conductor.ConductorTelemetry.RequestTypeTag -> string
+Conductor.ConductorTelemetry.ValidationFailureCountTag -> string

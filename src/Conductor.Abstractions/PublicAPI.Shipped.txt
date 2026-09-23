@@ -1,0 +1,37 @@
+#nullable enable
+Conductor.DuplicateHandlerException
+Conductor.DuplicateHandlerException.DuplicateHandlerException(System.Type, System.Collections.Generic.IReadOnlyCollection<System.Type>) -> void
+Conductor.DuplicateHandlerException.Handlers.get -> System.Collections.Generic.IReadOnlyCollection<System.Type>
+Conductor.DuplicateHandlerException.RequestType.get -> System.Type
+Conductor.HandlerNotFoundException
+Conductor.HandlerNotFoundException.HandlerNotFoundException(System.Type, System.Type) -> void
+Conductor.HandlerNotFoundException.HandlerType.get -> System.Type
+Conductor.HandlerNotFoundException.RequestType.get -> System.Type
+Conductor.ICommand<TResponse>
+Conductor.ICommandDispatcher
+Conductor.ICommandDispatcher.SendAsync<TResponse>(Conductor.ICommand<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.ICommandHandler<TCommand, TResponse>
+Conductor.ICommandHandler<TCommand, TResponse>.HandleAsync(TCommand, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.IMediator
+Conductor.IPipelineBehavior<TRequest, TResponse>
+Conductor.IPipelineBehavior<TRequest, TResponse>.HandleAsync(TRequest, Conductor.RequestHandlerDelegate<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.IQuery<TResponse>
+Conductor.IQueryDispatcher
+Conductor.IQueryDispatcher.QueryAsync<TResponse>(Conductor.IQuery<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.IQueryHandler<TQuery, TResponse>
+Conductor.IQueryHandler<TQuery, TResponse>.HandleAsync(TQuery, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.IValidator<TRequest>
+Conductor.IValidator<TRequest>.ValidateAsync(TRequest, System.Threading.CancellationToken) -> System.Threading.Tasks.ValueTask<System.Collections.Generic.IReadOnlyCollection<Conductor.ValidationFailure>>
+Conductor.RequestHandlerDelegate<TResponse>
+Conductor.RequestValidationException
+Conductor.RequestValidationException.Failures.get -> System.Collections.Generic.IReadOnlyCollection<Conductor.ValidationFailure>
+Conductor.RequestValidationException.RequestType.get -> System.Type
+Conductor.RequestValidationException.RequestValidationException(System.Type, System.Collections.Generic.IReadOnlyCollection<Conductor.ValidationFailure>) -> void
+Conductor.Unit
+Conductor.Unit.Value.get -> Conductor.Unit
+Conductor.ValidationFailure
+Conductor.ValidationFailure.AttemptedValue.get -> object?
+Conductor.ValidationFailure.ErrorCode.get -> string
+Conductor.ValidationFailure.ErrorMessage.get -> string
+Conductor.ValidationFailure.PropertyName.get -> string
+Conductor.ValidationFailure.ValidationFailure(string, string, string, object?) -> void

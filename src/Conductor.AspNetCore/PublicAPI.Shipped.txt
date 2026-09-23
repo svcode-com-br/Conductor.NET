@@ -1,0 +1,6 @@
+#nullable enable
+Conductor.AspNetCore.ConductorAspNetCoreServiceCollectionExtensions
+Conductor.AspNetCore.ConductorAspNetCoreServiceCollectionExtensions.AddConductorProblemDetails(this Microsoft.Extensions.DependencyInjection.IServiceCollection) -> Microsoft.Extensions.DependencyInjection.IServiceCollection
+Conductor.AspNetCore.RequestValidationExceptionHandler
+Conductor.AspNetCore.RequestValidationExceptionHandler.RequestValidationExceptionHandler() -> void
+Conductor.AspNetCore.RequestValidationExceptionHandler.TryHandleAsync(Microsoft.AspNetCore.Http.HttpContext, System.Exception, System.Threading.CancellationToken) -> System.Threading.Tasks.ValueTask<bool>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="NetArchTest.Rules" />
+    <ProjectReference Include="..\..\src\Conductor.Abstractions\Conductor.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Conductor\Conductor.csproj" />
+    <ProjectReference Include="..\..\src\Conductor.DependencyInjection\Conductor.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\src\Conductor.Testing\Conductor.Testing.csproj" />
+    <ProjectReference Include="..\..\src\Conductor.AspNetCore\Conductor.AspNetCore.csproj" />
+  </ItemGroup>
+</Project>

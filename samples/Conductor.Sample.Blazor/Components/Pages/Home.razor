@@ -1,0 +1,32 @@
+@using Conductor
+@inject IQueryDispatcher Queries
+
+@page "/"
+@rendermode InteractiveServer
+
+<h1>Conductor.NET Blazor sample</h1>
+
+@if (view is null)
+{
+    <p>Loading…</p>
+}
+else
+{
+    <p>@view.Title</p>
+    <p>Generated at @view.GeneratedAt</p>
+}
+
+<p>
+    This page dispatches a query on the server.
+	Components running on WebAssembly must call
+    secured HTTP endpoints instead of injecting server-side handlers.
+</p>
+
+@code {
+    private DashboardView? view;
+
+    protected override async Task OnInitializedAsync()
+    {
+        view = await Queries.QueryAsync(new GetDashboardQuery());
+    }
+}

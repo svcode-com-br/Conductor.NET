@@ -1,0 +1,19 @@
+#nullable enable
+Conductor.DependencyInjection.ConductorOptions
+Conductor.DependencyInjection.ConductorOptions.AddBehavior(System.Type) -> Conductor.DependencyInjection.ConductorOptions
+Conductor.DependencyInjection.ConductorOptions.AddValidationBehavior.get -> bool
+Conductor.DependencyInjection.ConductorOptions.AddValidationBehavior.set -> void
+Conductor.DependencyInjection.ConductorOptions.ConductorOptions() -> void
+Conductor.DependencyInjection.ConductorOptions.DispatcherLifetime.get -> Microsoft.Extensions.DependencyInjection.ServiceLifetime
+Conductor.DependencyInjection.ConductorOptions.DispatcherLifetime.set -> void
+Conductor.DependencyInjection.ConductorOptions.HandlerLifetime.get -> Microsoft.Extensions.DependencyInjection.ServiceLifetime
+Conductor.DependencyInjection.ConductorOptions.HandlerLifetime.set -> void
+Conductor.DependencyInjection.ConductorOptions.RegisterServicesFromAssembly(System.Reflection.Assembly) -> Conductor.DependencyInjection.ConductorOptions
+Conductor.DependencyInjection.ConductorOptions.RegisterServicesFromAssemblyContaining<T>() -> Conductor.DependencyInjection.ConductorOptions
+Conductor.DependencyInjection.ConductorOptions.ThrowOnDuplicateHandlers.get -> bool
+Conductor.DependencyInjection.ConductorOptions.ThrowOnDuplicateHandlers.set -> void
+Conductor.DependencyInjection.ConductorOptions.ValidatorLifetime.get -> Microsoft.Extensions.DependencyInjection.ServiceLifetime
+Conductor.DependencyInjection.ConductorOptions.ValidatorLifetime.set -> void
+Conductor.DependencyInjection.ConductorServiceCollectionExtensions
+Conductor.DependencyInjection.ConductorServiceCollectionExtensions.AddConductor(this Microsoft.Extensions.DependencyInjection.IServiceCollection) -> Microsoft.Extensions.DependencyInjection.IServiceCollection
+Conductor.DependencyInjection.ConductorServiceCollectionExtensions.AddConductor(this Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Conductor.DependencyInjection.ConductorOptions>) -> Microsoft.Extensions.DependencyInjection.IServiceCollection

@@ -1,0 +1,42 @@
+#nullable enable
+Conductor.Testing.ConductorTestHost
+Conductor.Testing.ConductorTestHost.Create(System.Action<Conductor.DependencyInjection.ConductorOptions>, System.Action<Microsoft.Extensions.DependencyInjection.IServiceCollection>?) -> Conductor.Testing.ConductorTestHost
+Conductor.Testing.ConductorTestHost.Create(System.Action<Microsoft.Extensions.DependencyInjection.IServiceCollection>) -> Conductor.Testing.ConductorTestHost
+Conductor.Testing.ConductorTestHost.CreateScope() -> Microsoft.Extensions.DependencyInjection.IServiceScope
+Conductor.Testing.ConductorTestHost.Dispose() -> void
+Conductor.Testing.ConductorTestHost.Provider.get -> Microsoft.Extensions.DependencyInjection.ServiceProvider
+Conductor.Testing.FakeCommandDispatcher
+Conductor.Testing.FakeCommandDispatcher.FakeCommandDispatcher() -> void
+Conductor.Testing.FakeCommandDispatcher.On<TCommand, TResponse>(System.Func<TCommand, System.Threading.CancellationToken, System.Threading.Tasks.Task<TResponse>>) -> Conductor.Testing.FakeCommandDispatcher
+Conductor.Testing.FakeCommandDispatcher.SendAsync<TResponse>(Conductor.ICommand<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.Testing.FakeCommandDispatcher.SentCommands.get -> System.Collections.Generic.IReadOnlyList<object>
+Conductor.Testing.FakeMediator
+Conductor.Testing.FakeMediator.Commands.get -> Conductor.Testing.FakeCommandDispatcher
+Conductor.Testing.FakeMediator.FakeMediator() -> void
+Conductor.Testing.FakeMediator.FakeMediator(Conductor.Testing.FakeCommandDispatcher, Conductor.Testing.FakeQueryDispatcher) -> void
+Conductor.Testing.FakeMediator.Queries.get -> Conductor.Testing.FakeQueryDispatcher
+Conductor.Testing.FakeMediator.QueryAsync<TResponse>(Conductor.IQuery<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.Testing.FakeMediator.SendAsync<TResponse>(Conductor.ICommand<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.Testing.FakeQueryDispatcher
+Conductor.Testing.FakeQueryDispatcher.FakeQueryDispatcher() -> void
+Conductor.Testing.FakeQueryDispatcher.On<TQuery, TResponse>(System.Func<TQuery, System.Threading.CancellationToken, System.Threading.Tasks.Task<TResponse>>) -> Conductor.Testing.FakeQueryDispatcher
+Conductor.Testing.FakeQueryDispatcher.QueryAsync<TResponse>(Conductor.IQuery<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.Testing.FakeQueryDispatcher.SentQueries.get -> System.Collections.Generic.IReadOnlyList<object>
+Conductor.Testing.HandlerInvocationCounter
+Conductor.Testing.HandlerInvocationCounter.Count.get -> int
+Conductor.Testing.HandlerInvocationCounter.HandlerInvocationCounter() -> void
+Conductor.Testing.HandlerInvocationCounter.Increment() -> void
+Conductor.Testing.HandlerInvocationCounter.ShouldHaveBeenCalled(int) -> void
+Conductor.Testing.PipelineOrderAssertions
+Conductor.Testing.PipelineOrderAssertions.Equal(System.Collections.Generic.IReadOnlyList<string>, System.Collections.Generic.IReadOnlyList<string>) -> void
+Conductor.Testing.RecordingBehavior<TRequest, TResponse>
+Conductor.Testing.RecordingBehavior<TRequest, TResponse>.HandleAsync(TRequest, Conductor.RequestHandlerDelegate<TResponse>, System.Threading.CancellationToken) -> System.Threading.Tasks.Task<TResponse>
+Conductor.Testing.RecordingBehavior<TRequest, TResponse>.RecordingBehavior(Conductor.Testing.RecordingContext) -> void
+Conductor.Testing.RecordingBehavior<TRequest, TResponse>.RecordingBehavior(Conductor.Testing.RecordingContext, string) -> void
+Conductor.Testing.RecordingBehaviorExtensions
+Conductor.Testing.RecordingBehaviorExtensions.AddRecordingBehavior<TRequest, TResponse>(this Microsoft.Extensions.DependencyInjection.IServiceCollection, string) -> Microsoft.Extensions.DependencyInjection.IServiceCollection
+Conductor.Testing.RecordingContext
+Conductor.Testing.RecordingContext.Add(string) -> void
+Conductor.Testing.RecordingContext.Clear() -> void
+Conductor.Testing.RecordingContext.Events.get -> System.Collections.Generic.IReadOnlyList<string>
+Conductor.Testing.RecordingContext.RecordingContext() -> void

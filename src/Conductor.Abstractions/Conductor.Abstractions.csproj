@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Conductor.Abstractions</PackageId>
+    <Title>Conductor .NET Abstractions</Title>
+    <Description>Stable CQRS and mediator contracts for Conductor.NET: commands, queries, handlers, dispatchers, pipelines, and validation.</Description>
+    <RootNamespace>Conductor</RootNamespace>
+    <AssemblyName>Conductor.Abstractions</AssemblyName>
+    <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Sergio Valadão Junior</Authors>
+    <Company>SVCODE</Company>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,30 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Conductor.Abstractions/Conductor.Abstractions.csproj" />
+    <Project Path="src/Conductor/Conductor.csproj" />
+    <Project Path="src/Conductor.DependencyInjection/Conductor.DependencyInjection.csproj" />
+    <Project Path="src/Conductor.Testing/Conductor.Testing.csproj" />
+    <Project Path="src/Conductor.AspNetCore/Conductor.AspNetCore.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Conductor.Abstractions.Tests/Conductor.Abstractions.Tests.csproj" />
+    <Project Path="tests/Conductor.Tests/Conductor.Tests.csproj" />
+    <Project Path="tests/Conductor.DependencyInjection.Tests/Conductor.DependencyInjection.Tests.csproj" />
+    <Project Path="tests/Conductor.Testing.Tests/Conductor.Testing.Tests.csproj" />
+    <Project Path="tests/Conductor.AspNetCore.Tests/Conductor.AspNetCore.Tests.csproj" />
+    <Project Path="tests/Conductor.ArchitectureTests/Conductor.ArchitectureTests.csproj" />
+    <Project Path="tests/Conductor.IntegrationTests/Conductor.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/Conductor.Sample.Console/Conductor.Sample.Console.csproj" />
+    <Project Path="samples/Conductor.Sample.WebApi/Conductor.Sample.WebApi.csproj" />
+    <Project Path="samples/Conductor.Sample.Blazor/Conductor.Sample.Blazor.csproj" />
+  </Folder>
+  <Folder Name="/support/">
+    <Project Path="support/Conductor.TestSupport.Scan/Conductor.TestSupport.Scan.csproj" />
+    <Project Path="support/Conductor.TestSupport.Duplicates/Conductor.TestSupport.Duplicates.csproj" />
+  </Folder>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/Conductor.Benchmarks/Conductor.Benchmarks.csproj" />
+  </Folder>
+</Solution>

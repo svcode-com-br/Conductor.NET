@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <ProjectReference Include="..\..\src\Conductor.DependencyInjection\Conductor.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\support\Conductor.TestSupport.Scan\Conductor.TestSupport.Scan.csproj" />
+    <ProjectReference Include="..\..\support\Conductor.TestSupport.Duplicates\Conductor.TestSupport.Duplicates.csproj" />
+  </ItemGroup>
+</Project>
