@@ -2,7 +2,7 @@
 
 Conductor.NET is a small, host-neutral CQRS and mediator library for .NET. It dispatches commands and queries to exactly one handler, publishes in-process notifications to zero or more handlers, runs ordered pipeline behaviors, and validates requests without taking a dependency on MediatR, Fluent Validator, ASP.NET Core, or Entity Framework Core.
 
-**Status:** `1.0.0-release.1`
+**Status:** `1.0.0`
 
 ## Packages
 
