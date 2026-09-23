@@ -20,7 +20,7 @@ internal sealed class CommandHandlerWrapperImpl<TCommand, TResponse> : CommandHa
     {
         var typed = (TCommand)command;
         var handler = services.GetService<ICommandHandler<TCommand, TResponse>>()
-            ?? throw new HandlerNotFoundException(typeof(TCommand),typeof(ICommandHandler<TCommand, TResponse>));
+            ?? throw new HandlerNotFoundException(typeof(TCommand), typeof(ICommandHandler<TCommand, TResponse>));
 
         ConductorDiagnostics.SetHandlerType(System.Diagnostics.Activity.Current, handler.GetType());
 
